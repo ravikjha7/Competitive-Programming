@@ -33,3 +33,6 @@ int main()
     cout<<BinarySearch(arr,key,n)<<endl;
     return 0;
 }
+
+// Time Compelxity : O(logn)
+// Space Complexity : O(1)
