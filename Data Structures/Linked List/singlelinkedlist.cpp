@@ -85,7 +85,7 @@ void addatafterlocation()
     }
     else
     {
-        while(loc>1)
+        while(loc>2)
         {
             p = p->link;
             loc--;
