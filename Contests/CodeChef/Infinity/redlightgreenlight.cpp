@@ -10,18 +10,15 @@ int main()
     cin>>t;
     while(t--)
     {
-        ll n;
-        cin>>n;
+        ll n,k;
+        cin>>n>>k;
         ll arr[n];
-        ll minm = INT_MAX;
-        ll sum = 0;
+        ll count = 0;
         for(ll i=0;i<n;i++) {
-            cin>>arr[i];
-            minm = min(minm,arr[i]);
-            sum += arr[i];
+            cin >> arr[i];
+            if(arr[i]>k) count++;
         }
-        cout<<sum-minm<<endl;
-
+        cout<<count<<endl;
     }
     return 0;
 }
